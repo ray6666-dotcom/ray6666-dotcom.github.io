@@ -1,0 +1,187 @@
+
+<!DOCTYPE html>
+<html lang="zh-Hant-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="嘉義大學生活, 校園活動, 好玩, 美食, 住宿, 景點, 學生社團">
+    <meta name="description" content="快來加入實踐大學生活圈！探索嘉義的棒球歷史、社區故事，還有超多好吃好玩的地方，讓校園生活精彩無限！">
+    <meta property="og:title" content="實踐大學生活歡迎你！">
+    <meta property="og:description" content="體驗校園周邊的棒球歷史、自然風光、美食探險，校園生活怎麼這麼有趣！">
+    <meta property="og:image" content="images/fun_life.jpg">
+    <meta property="og:url" content="https://your-website-url.com">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <title>實踐大學生活超好玩！</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Arial', sans-serif;
+            line-height: 1.6;
+            background-color: #ffffff;
+            color: black;
+        }
+
+        header, footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #4CAF50;
+            color: white;
+        }
+
+        header h1, footer p {
+            margin: 0;
+        }
+
+        h1 {
+            font-size: 2.5rem;
+            letter-spacing: 2px;
+        }
+
+        h2 {
+            font-size: 1.75rem;
+            color: #4CAF50;
+        }
+
+        p {
+            font-size: 1rem;
+            line-height: 1.6;
+        }
+
+        .hero-section {
+            text-align: center;
+            padding: 50px 20px;
+            background: #4CAF50;
+            color: white;
+        }
+
+        .hero-section p {
+            margin-top: 10px;
+            font-size: 1.2rem;
+        }
+
+        main {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+            padding: 20px;
+        }
+
+        .card {
+            background-color: #fff;
+            color: #444;
+            padding: 15px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+            text-align: center;
+            transition: transform 0.2s;
+        }
+
+        .card:hover {
+            transform: scale(1.05);
+        }
+
+        .card img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 10px;
+            margin-bottom: 10px;
+        }
+
+        .card h2 {
+            font-size: 1.25rem;
+            color: #4CAF50;
+            margin-bottom: 10px;
+        }
+
+        .card p {
+            font-size: 1rem;
+        }
+
+        section {
+            text-align: center;
+            padding: 20px;
+        }
+
+        footer {
+            margin-top: 30px;
+        }
+
+       
+        .back-to-top {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 15px;
+            border-radius: 50%;
+            font-size: 18px;
+            text-decoration: none;
+            display: block;
+            text-align: center;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        .back-to-top:hover {
+            background-color: #45a049;
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+    </style>
+</head>
+<body id="top">
+
+    <div class="hero-section">
+        <nav class="navbar navbar-expand-lg">
+            <div class="container">
+                <a class="navbar-brand text-white" href="#">實踐大學生活</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item"><a class="nav-link text-white" href="home.html">首頁</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <h1>趣味活動</h1>
+        <p>探索無限可能，讓每一天都充滿樂趣與回憶！</p>
+    </div>
+
+    <main>
+        <div class="card">
+            <img src="images/fiy.jpg" alt="無人機社活動">
+            <h2>無人機社</h2>
+            <p>學習無人機操作與空拍技術，探索天空之美，記錄校園的每一瞬間！</p>
+        </div>
+        <div class="card">
+            <img src="images/badmintain.jpg" alt="羽球社活動">
+            <h2>羽球社</h2>
+            <p>從基本練習到友誼賽，無論高手還是新手，來這裡體驗運動的樂趣！</p>
+        </div>
+        <div class="card">
+            <img src="images/ball.jpg" alt="排球社活動">
+            <h2>排球社</h2>
+            <p>不論是學習技巧還是感受團隊合作，排球社讓你在比賽中找到熱血與快樂！</p>
+        </div>
+    </main>
+
+    <section>
+        <h1>宿營</h1>
+        <img src="images/camping.jpg" alt="宿營活動" style="border-radius: 10px; max-width: 100%; height: auto;">
+        <h2>新生宿營</h2>
+        <p>迎接新學期，參加宿營活動，建立新友誼，開啟精彩校園生活！</p>
+    </section>
+
+    <a href="#top" class="back-to-top">↑ 回到頂端</a>
+
+</body>
+</html>
